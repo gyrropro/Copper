@@ -25,7 +25,7 @@ module.exports = {
 				.setColor(0xc56a39)
 				.setTitle('Bot Info:')
 				.addFields({ value: '`1.0.0`', name: 'Copper version:' })
-				.addFields({ value: '`9`', name: 'number of commands:' })
+				.addFields({ value: '`10`', name: 'number of commands:' })
 				.addFields({ value: `<t:${Math.floor(interaction.client.readyTimestamp / 1000)}:R>`, name: 'online since:' })
 				.setTimestamp()
 				.setFooter({ text: 'Copper', iconURL: 'https://i.imgur.com/ySErtc7.png' });
