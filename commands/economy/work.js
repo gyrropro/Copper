@@ -3,8 +3,8 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('beg')
-		.setDescription('Beg for coins'),
+		.setName('work')
+		.setDescription('work your shift for coins'),
 	async execute(interaction) {
         const embed = new EmbedBuilder()
 	    .setColor(0xc56a39)
